@@ -24,6 +24,8 @@ public class MyBillingAppApplication extends Application<MyBillingAppConfigurati
     public void run(final MyBillingAppConfiguration configuration,
                     final Environment environment) {
         // TODO: implement application
+    	
+    	System.out.println("Application Name: " + getName());
     }
 
 }
